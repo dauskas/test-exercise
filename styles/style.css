@@ -1,0 +1,172 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+body a {
+  text-decoration: none;
+}
+.promo-span {
+  color: white;
+  font-size: 14px;
+  line-height: 21px;
+  background: rgb(147, 152, 120);
+  padding: 10px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.promo-span-svg {
+  position: absolute;
+  right: 50px;
+}
+header {
+  font-size: 18px;
+  padding: 16px 80px;
+}
+
+header a {
+  color: #2a2c1f;
+}
+
+.logo {
+  align-items: center;
+  width: 105px;
+  height: 32px;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #c96d43;
+  border-radius: 13px;
+  margin-right: 8px;
+}
+
+.call-btn {
+  border: 1px solid rgb(231, 232, 227);
+  border-radius: 7px;
+  width: 100px;
+  padding: 5px 0px;
+}
+
+.modal-btn {
+  border: 1px solid #cf6f49;
+  background-color: #cf6f49;
+  text-align: center;
+  width: 160px;
+  border-radius: 7px;
+  padding: 7px 0px;
+}
+
+.modal-btn button {
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+section {
+  position: relative;
+  display: flex;
+  background-color: rgb(245, 245, 242);
+  height: 70vh;
+}
+
+.section-left {
+  position: relative;
+}
+
+.section-left,
+.section-right {
+  flex: 1;
+  display: flex;
+}
+.section-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.left-block {
+  width: 560px;
+  height: 370px;
+  margin-left: 80px;
+}
+
+.left-block h1 {
+  font-weight: 400;
+  font-size: 56px;
+}
+
+.left-block p {
+  color: #65665c;
+  font-size: 20px;
+}
+
+.left-block span {
+  font-weight: 500;
+  padding: 5px 15px;
+  background-color: #e7e8e3;
+  border-radius: 15px;
+}
+.email-input {
+  font-size: 20px;
+  background: white;
+  color: #65665c;
+  width: 300px;
+  border: 1px solid rgb(231, 232, 227);
+  border-radius: 7px;
+  padding: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+.orange-btn {
+  border: 1px solid #cf6f49;
+  background-color: #cf6f49;
+  font-size: 20px;
+  text-align: center;
+  width: 150px;
+  border-radius: 7px;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+}
+.svg-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+footer {
+  padding-top: 70px;
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+footer p {
+  color: #2a2c1f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-left {
+  width: 250px;
+}
