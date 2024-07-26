@@ -193,6 +193,7 @@ footer p {
   cursor: pointer;
 }
 .modal-title {
+  font-size: 24px;
   width: 100%;
 }
 .modal-body {
