@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -169,4 +170,50 @@ footer p {
 
 .footer-left {
   width: 250px;
+}
+.modal-content {
+  font-family: "Inter", sans-serif;
+  padding: 0.5rem;
+  max-width: 500px;
+  margin: auto;
+}
+.modal-header {
+  border-bottom: none !important;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0 !important;
+}
+.custom-close {
+  position: absolute;
+  top: 10px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.modal-title {
+  width: 100%;
+}
+.modal-body {
+  padding-top: 0 !important;
+  font-size: 16px;
+}
+.modal-footer {
+  text-align: center;
+  border: none !important;
+}
+.modal-footer small {
+  color: #828282;
+  font-weight: 300;
+  display: block;
+  width: 100%;
+}
+.modal-footer small a {
+  color: #000000 !important;
+}
+
+.form-control::placeholder {
+  font-size: 20px;
+  line-height: 30px;
 }
